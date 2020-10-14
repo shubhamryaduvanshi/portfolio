@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Registration Page </title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<style type="text/css">
+body{
+		font-family: calibri,sans-serif;
+		margin: 0;
+		padding:0;
+		background-color: lightcyan;
+		float: center;
+		}
+.regist{
+		margin: 5% 30% 0% 20%;
+		padding: 2% 0 0 7%;
+		height:520px;
+		width:40%;
+		background-image:linear-gradient(#045de9,#09c6f9);
+		box-shadow: 8px 18px 8px rgba(0,0,0,.6);
+		border-radius: 10px;
+		}
+h1{		
+		font-family: sans-serif;
+		font-size: 40px;
+		color:white;
+		margin-top:2%;
+		margin-right: 7%;
+		text-shadow: 8px 15px 8px rgba(0,0,0,0.6);
+
+		}
+		/* -------logos is for the user icon------*/
+
+
+/*Now its time for body-----------*/
+.input-container{
+		margin-left: 6%;
+		width: 100%;
+		margin-bottom: 15px;
+		}
+
+
+.entry{
+		padding-bottom: 7px;
+		padding-top: 15px;
+		padding-left: 25px;
+		border-radius: 15px;
+		width:60%;
+		margin: 0 26% 0 0;
+		font-size: 18px;
+		box-shadow: 6px 8px 8px rgba(0,0,0,0.6);
+
+		}
+.entry:focus{
+			border:2px solid dodgerblue;
+		}
+
+button{ 
+		height: 38px;
+		margin:5px 0 2px 0;
+		color:white;
+		background-color: #001166;
+		border:none;
+		box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+		cursor: pointer;
+		opacity:0.8;
+		font-size: 22px;
+		}
+button:hover{
+			opacity:1;
+		}
+
+
+/*  Media queries------------------*/
+
+@media (max-width: 1200px){
+
+}
+
+
+/* for minilaptop or tablet landscape mode --------*/
+@media (max-width: 990px){
+.regist{
+		margin: 8% 30% 0% 30%;
+		width:37%;	
+		}
+
+h1{
+		font-size: 30px;
+		}
+.entry{ margin-top: 10px;
+		padding-bottom: 5px;
+		padding-top: 10px;
+		padding-left: 25px;
+		border-radius: 15px;
+		width:60%;
+		}
+button{
+		width:30%;
+		margin:10% 0 0 12%;
+		font-size: 15px;	
+		}
+		}
+
+
+/*--------------*/
+@media(max-width: 860px){
+
+.regist{
+		margin: 8% 30% 0% 30%;
+		width:45%;	
+		}
+
+h1{
+		font-size: 30px;
+		}
+
+
+button{
+		width:60%;
+		margin:15px 0 0 12%;	
+		}
+		}
+
+/* for smartphones landscape or tablet portrait mode -----*/
+@media(max-width: 740px){
+
+.regist{
+		margin: 8% 30% 0% 30%;
+		width:45%;	
+		}
+
+h1{
+		font-size: 25px;
+		}
+
+
+button{
+		width:60%;
+		margin:15px 0 0 12%;	
+		}
+		}
+
+
+/*for smartphones or iphone's landscape view ----*/
+@media(max-width: 620px){
+.regist{
+		margin: 10% 0 0 18%;
+		width:60%;	
+		}
+
+h1{
+		font-size: 20px;
+		margin-left: 15%;
+		}
+
+
+button{
+		width:60%;
+		margin:15px 0 0 12%;	
+		}
+		}
+/* small size smartphones or iphone portrait-------*/
+@media(max-width: 480px){
+.regist{
+		margin: 5% 0% 0 12%;
+		width:70%;	
+		}
+h1{
+		font-size: 26px;
+		margin-left: 6%;
+		}
+.entry{ margin-top: 10px;
+			font-size: 15px;}
+
+		}
+button{
+		width:60%;
+		margin:15px 0 0 12%;	
+		}
+		}
+
+</style>
+</head>
+<body>
+	<form> 
+			<!----------------Login  page------------------->
+			<div class="regist">
+
+			<!----------------heading of page------------------>
+				<h1>NEW REGISTRATION</h1>		
+
+				<div class="input-container">				
+					<input class="entry" type="text" value="" placeholder="  User Name ">					
+				</div>
+				<div class="input-container">				
+					<input class="entry" type="text" value="" placeholder="  Email Address ">					
+				</div>
+				
+				<!--------Password field------------------>
+				<div class="input-container">
+				<input class="entry" type="password" value="" placeholder="  Add a password">	
+				</div>
+				<div class="input-container">
+				<input class="entry" type="password" value="" placeholder="  Repeat  password">	
+				</div><div class="input-container">
+				<input class="entry" type="text" value="" placeholder="  Mobile Number">	
+				</div>
+				<!--------------------Login Button--------------->
+				<button> SUBMIT </button>
+				<button>LOGIN</button>
+				</div>
+			</form>
+	</body>
+</html>
